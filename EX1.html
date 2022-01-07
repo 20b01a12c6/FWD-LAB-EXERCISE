@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Registration Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="Ex1.js" defer></script>
+</head>
+
+<body>
+    <div class="container ">
+        <form action="" id="form" class="">
+            <div class="form-group mt-5 ms-5 me-5">
+
+                <div class="row ">
+                    <div class="col col-md-4">
+                        <label for="" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" value=""required>
+                        <p id="nameid"></p>
+                    </div>
+                </div>
+
+                <div class="row ">
+                    <div class="col col-md-4">
+                        <label for="" class="form-label">Password</label>
+                        <input type="password" name="" id="pass" class="form-control">
+                        <p id="passid"></p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col col-md-4">
+                        <label for="" class="form-label">Branch</label>
+
+                        <select id="sel" class="form-select" >
+                            <option selected disabled value="Branch">Branch</option>
+                            <option value="CSE">CSE</option>
+                            <option value="IT">IT</option>
+                            <option value="ECE">ECE</option>
+                            <option value="EEE">EEE</option>
+                            <option value="CIVIL">CIVIL</option>
+                            <option value="MECH">MECH</option>
+                        </select>
+                        <p id="selid"></p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col col-md-4"><label for="" class="form-label">Gender</label></div>
+                    <div class="form-check">
+                        <input type="radio" name="gender" id="rad1" class="form-check-input">
+                        <label for="" class="form-check-label">Male</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="gender" id="rad2" class="form-check-input">
+                        <label for="" class="form-check-label">Female</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="gender" id="rad3" class="form-check-input">
+                        <label for="" class="form-check-label">Other</label>
+                    </div>
+                    <p id="radid"></p>
+                </div>
+
+                <div class="row">
+                    <div class="col col-md-4"><label for="" class="form-label">Interests</label></div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" id="che1" name="interests" type="checkbox">
+                        <label class="form-check-label" for="">Music</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" id="che2" name="interests" type="checkbox">
+                        <label class="form-check-label" for="">Sports</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" id="che3" name="interests" type="checkbox">
+                        <label class="form-check-label" for="checkvalidate">Entrepreneurship</label>
+                    </div>
+                    <p id="cheid"></p>
+                </div>
+                <div class="row">
+                    <div class="col col-md-4">
+                        <button id="btn" class="btn-primary">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"
+        ></script>
+</body>
+
+</html>
