@@ -1,0 +1,21 @@
+input{
+    max-width: 500px;
+    height: 30px;
+}
+i{
+image-rendering: optimizeSpeed;
+}
+img{
+    max-height: 450px;
+    max-width: 450px;
+    position: relative;
+    bottom: 500px;
+    left: 700px;
+}    
+.container{
+    position: relative;
+    top:150px;
+}
+span{
+    color: red;
+}

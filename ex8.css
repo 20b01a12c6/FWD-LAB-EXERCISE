@@ -1,0 +1,37 @@
+ul{
+    list-style-type : none;
+    font-size:16px ;
+    
+}
+a{
+   
+    text-decoration: none;
+    color :white;
+}
+li{
+    display: inline;
+}
+#w{
+    padding-left: 1050px;
+    
+}
+#move{
+    padding-left:10px;
+}
+#m{
+    padding-left: 10px;
+}
+#p{
+    padding-left: 10px;
+}
+
+nav{
+    background-color: black;
+    width: 100%;
+    height: 50%;
+    
+}
+a:hover{
+    color:red;
+    background-color: yellow;
+}
